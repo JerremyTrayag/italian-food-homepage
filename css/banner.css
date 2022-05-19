@@ -7,5 +7,8 @@
     background-repeat: no-repeat;
   }
   .banner-text-left {
-    text-align: left!important;
+    text-align: center!important;
+}
+.align-items-center{
+    margin-left: -653px;
 }
