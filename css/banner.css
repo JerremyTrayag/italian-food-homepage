@@ -5,10 +5,18 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  }
-  .banner-text-left {
+}
+.banner-text-left {
     text-align: center!important;
 }
 .align-items-center{
     margin-left: -653px;
+}
+.banner-image-right{
+    margin-top: -500px;
+    text-align: right!important;
+    background-image: url('/images/plate.png');
+    background-size: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
 }
