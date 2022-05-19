@@ -14,10 +14,11 @@
     margin-left: -653px;
 }
 .banner-image-right{
-    margin-top: -500px;
+    margin-top: -411px;
+    margin-left: -117px;
     text-align: right!important;
-    background-image: url('/italian-food-homepage/images/plate.png');
-    background-size: 10%;
+    background-image: url(/italian-food-homepage/images/plate.png);
+    background-size: 25%;
     background-position: right;
     background-repeat: no-repeat;
 }
