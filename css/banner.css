@@ -1,12 +1,13 @@
 .banner-hero {
     height: 100vh;
     min-height: 500px;
-    background-image: url('/images/bg.png');
+    background-image: url('/italian-food-homepage/images/bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 .banner-text-left {
+    margin-top: 223px;
     text-align: center!important;
 }
 .banner-align-items-center{
@@ -15,8 +16,8 @@
 .banner-image-right{
     margin-top: -500px;
     text-align: right!important;
-    background-image: url('/images/plate.png');
-    background-size: 100%;
+    background-image: url('/italian-food-homepage/images/plate.png');
+    background-size: 10%;
     background-position: right;
     background-repeat: no-repeat;
 }
