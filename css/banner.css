@@ -22,3 +22,22 @@
     background-position: right;
     background-repeat: no-repeat;
 }
+.banner-image-left-left{
+    position: absolute;
+    text-align: right!important;
+    background-image: url(../images/leaf1.png);
+    background-size: 100%;
+    width: 50px;
+    height: 50px;
+    margin-left: 694px;
+    margin-top: 310px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner-image-left-right{
+    text-align: right!important;
+    background-image: url('../images/pasta.png');
+    background-size: 5%;
+    background-position: right;
+    background-repeat: no-repeat;
+}

@@ -1,6 +1,8 @@
 <div class="banner-hero">
     <div class="container h-100">
       <div class="row h-100 banner-align-items-center">
+        <img alt="" class="banner-image-left-left">
+        <img alt="" class="banner-image-left-right">
         <div class="col-12 banner-text-left">
           <h1 class="fw-light">Are You Hungry?</h1>
           <h2 class="fw-light">DONT' WAIT!</h2>
