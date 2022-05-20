@@ -20,7 +20,7 @@ jQuery( document ).ready(function() {
     }, 200);
 
     function updateStyling(mypos){
-        if (mypos >= 110) {
+        if (mypos >= 90) {
              jQuery('#header-navbar').addClass('header-navscroll');
         } else {
              jQuery('#header-navbar').removeClass('header-navscroll');
