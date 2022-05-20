@@ -1,5 +1,69 @@
-h1{
-    color: green;
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+.events-section {
+    box-sizing: border-box;
+}
+.events-section .header-title {
+    font-family: 'Fredericka the Great', cursive;
+}
+
+
+.events-section .events-carousel-container {
+    width: 100%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+.events-section .events-carousel-container .carousel {
+    height: 40vh;
+    width: 33.33%;
+    background-color: #fafafa;
+    float: left;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    text-align: center;
+    transition: 300ms;
+}
+.events-section .events-carousel-container .carousel .carousel-overlay {
+    background-color: black;
+    height: 40vh;
+    width: 100%;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.events-section .events-carousel-container .mid {
+    background: #ffffff;
+    color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: scale(1.3);
+    z-index: 1;
+}
+.events-section .events-carousel-container .carousel img {
+    height: 40vh;
+    width: 100%;
+}
+.events-section .dots ul li a {
+    text-decoration: none;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    transition: all ease-in-out 300ms;
+}
+.events-section .dots ul li a:hover {
+    background-color: gold;
+}
+.events-section .dots ul li a.active {
+    background-color: gold;
 }
 
 
@@ -7,18 +71,48 @@ h1{
 
 @media only screen and (max-device-width: 360px) {
     /* styles for mobile browsers smaller than 360px; */
+    .events-section .header-sub {
+        padding: 0;
+    }
+    .events-section .events-carousel-container .first,
+    .events-section .events-carousel-container .last {
+        display: none;
+    }
+    .events-section .events-carousel-container .mid {
+        width: 70%;
+    }
+
  }
 
 @media only screen and (max-device-width: 480px) {
     /* styles for mobile browsers smaller than 480px; */
+    .events-section .header-sub {
+        padding: 0;
+    }
+    .events-section .events-carousel-container .first,
+    .events-section .events-carousel-container .last {
+        display: none;
+    }
+    .events-section .events-carousel-container .mid {
+        width: 70%;
+    }
+
  }
  
  @media only screen and (device-width: 768px) {
     /* default tablet and iPad screens */
+    .events-section .header-sub {
+        padding: 0;
+    }
+
  }
  
  @media only screen and (min-width: 960px) {
      /* styles for browsers larger than 960px; */
+     .events-section .header-sub {
+        padding: 0 10em;
+    }
+
  }
  
  @media only screen and (min-width: 1200px) {

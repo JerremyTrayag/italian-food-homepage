@@ -1,24 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 
+.menu-section {
+    overflow: hidden;
+}
+.menu-section .header-title {
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.menu-section .menu-item-btn {
+    margin-top: 2em;
+}
+.menu-section .item-btn{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 0.8em 2em;
+    text-transform: uppercase;
+    background-color: gold;
+}
+.menu-section .menu-item-img {
+    z-index: 999;
+    height: 20em;
+}
 
 
 
 @media only screen and (max-device-width: 360px) {
     /* styles for mobile browsers smaller than 360px; */
+    .menu-section .header-sub {
+        padding: 0;
+    }
+    .menu-section .menu-background {
+        display: none;
+    }
+    
  }
 
 @media only screen and (max-device-width: 480px) {
     /* styles for mobile browsers smaller than 480px; */
+    .menu-section .header-sub {
+        padding: 0;
+    }
+    .menu-section .menu-background {
+        display: none;
+    }
  }
  
  @media only screen and (device-width: 768px) {
     /* default tablet and iPad screens */
+    .menu-section .header-sub {
+        padding: 0;
+    }
+    .menu-section .menu-background {
+        display: none;
+    }
  }
  
  @media only screen and (min-width: 960px) {
      /* styles for browsers larger than 960px; */
+     .menu-section .header-sub {
+        padding: 0 10em;
+    }
+    .menu-section .menu-background {
+        border-top: 8em solid gold;
+        width: 100%;
+        z-index: -1;
+        position: absolute;
+        margin-top: 8em;
+        opacity: 0.5;
+    }
  }
  
  @media only screen and (min-width: 1200px) {
      /* styles for browsers larger than 1200px; */
+     .menu-section .menu-background {
+        border-top: 8em solid gold;
+        width: 100%;
+        z-index: -1;
+        position: absolute;
+        margin-top: 8em;
+        opacity: 0.5;
+    }
  }
