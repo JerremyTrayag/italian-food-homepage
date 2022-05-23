@@ -7,11 +7,12 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-.banner-text-left {
-    
+
+.header-heading-2{
+    font-size: 50px;
 }
-.banner-image-right{
-    
+.header-caption-1{
+    font-size: 35px;
 }
 
 .header-heading-2, .header-caption-1{
