@@ -1,46 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
 .banner-hero {
-    height: 100vh;
-    min-height: 500px;
-    background-image: url('../images/bg.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("../images/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.header-heading-2{
-    font-size: 50px;
-}
-.header-caption-1{
-    font-size: 35px;
+.header-heading-2 {
+  font-size: 50px;
 }
 
-.header-heading-2, .header-caption-1{
-    font-family: 'Fredericka the Great', cursive;
+.header-caption-1 {
+  font-size: 35px;
+}
+
+.header-heading-2, .header-caption-1 {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.header-heading-1 {
+  font-family: 'Cookie', cursive;
+  margin-left: 60px;
+}
+
+.banner-image-left-leaf1 {
+  position: absolute;
+  margin-top: 180px;
+  margin-left: -25px;
+}
+
+.banner-image-left-leaf1 .img-fluid {
+  height: 100px;
 }
 
 /*
 font-family: 'Fredericka the Great', cursive;
 */
-
-
-
 @media only screen and (max-device-width: 360px) {
-    /* styles for mobile browsers smaller than 360px; */
- }
+  /* styles for mobile browsers smaller than 360px; */
+}
 
 @media only screen and (max-device-width: 480px) {
-    /* styles for mobile browsers smaller than 480px; */
- }
- 
- @media only screen and (device-width: 768px) {
-    /* default tablet and iPad screens */
- }
- 
- @media only screen and (min-width: 960px) {
-     /* styles for browsers larger than 960px; */
- }
- 
- @media only screen and (min-width: 1200px) {
-     /* styles for browsers larger than 1200px; */
- }
+  /* styles for mobile browsers smaller than 480px; */
+}
+
+@media only screen and (device-width: 768px) {
+  /* default tablet and iPad screens */
+}
+
+@media only screen and (min-width: 960px) {
+  /* styles for browsers larger than 960px; */
+}
+
+@media only screen and (min-width: 1200px) {
+  /* styles for browsers larger than 1200px; */
+}
+/*# sourceMappingURL=banner.css.map */
