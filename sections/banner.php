@@ -18,7 +18,7 @@
           </div>
         </div>
         <div class="col-6 banner-image-right d-flex align-items-center">
-          <img src="../images/plate.png" alt="food4you">
+          <img class="img-fluid" src="../images/plate.png" alt="food4you">
         </div>
       </div>
     </div>
