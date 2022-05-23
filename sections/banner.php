@@ -12,6 +12,7 @@
             <h1 class="header-heading-1 fw-light">Are You Hungry?</h1>
             <h2 class="header-heading-2 fw-light">DONT' WAIT!</h2>
             <h4 class="header-subheading fw-light">LET START TO ORDER FOOD NOW</h4>
+            <p class="banner-line"></p>
             <div class="header-subheading-2 row">
               <div class="header-caption col-6">
                 THIS MONDAY<br>
@@ -19,6 +20,9 @@
               </div>
               <div class="header-caption-1 col-6">
                 1+1=3
+              </div>
+              <div class="banner-button">
+                <button type="button" class="btn btn-outline-dark banner-btn">ORDER NOW</button>
               </div>
             </div>
           </div>
