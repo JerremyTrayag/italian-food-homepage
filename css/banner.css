@@ -36,6 +36,46 @@
   height: 100px;
 }
 
+.banner-image-right-pasta {
+  position: absolute;
+  margin-top: 85px;
+  margin-left: 380px;
+}
+
+.banner-image-left-pasta .img-fluid {
+  height: 100px;
+}
+
+.banner-image-bottom-left-spag {
+  position: absolute;
+  margin-top: 530px;
+  margin-left: -210px;
+}
+
+.banner-image-bottom-left-spag .img-fluid {
+  height: 215px;
+}
+
+.banner-image-bottom-center-tomato {
+  position: absolute;
+  margin-top: 530px;
+  margin-left: 500px;
+}
+
+.banner-image-bottom-center-tomato .img-fluid {
+  height: 100px;
+}
+
+.banner-image-bottom-right-leaf2 {
+  position: absolute;
+  margin-top: 180px;
+  margin-left: -25px;
+}
+
+.banner-image-bottom-right-leaf2 .img-fluid {
+  height: 100px;
+}
+
 /*
 font-family: 'Fredericka the Great', cursive;
 */
