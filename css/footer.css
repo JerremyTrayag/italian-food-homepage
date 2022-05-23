@@ -1,9 +1,12 @@
 .footer-section {
-    background-image: 'images/bgImage.jpg';
+    /* background-image: url("/images/bgImage.jpg"); */
+    /* background: linear-gradient(90deg, rgba(2,0,36,0.49653364763874297) 100%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%); */
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.60) 100%, rgba(0 0 0 / 60)100%,rgba(0, 0, 0, .60) 100%), url(/images/bgImage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .footer-section .footer-logo {
     color: gold;
     font-size: 1.5em;
