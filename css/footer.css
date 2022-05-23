@@ -1,8 +1,32 @@
-h1{
-    color: pink;
+.footer-section {
+    background-image: 'images/bgImage.jpg';
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer-section .footer-logo {
+    color: gold;
+    font-size: 1.5em;
 }
 
-
+.footer-section .footer-sm-container ul li{
+    height: 2.2em;
+    width: 2.2em;
+    max-width: 4rem;
+    max-height: 4rem;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: all ease 300ms;
+}
+.footer-section .footer-sm-container ul li:hover {
+    background-color:gold;
+}
+.footer-section .footer-sm-container ul li a {
+    color: black;
+    font-size: 1.4em;
+}
 
 
 @media only screen and (max-device-width: 360px) {

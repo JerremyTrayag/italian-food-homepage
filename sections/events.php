@@ -24,7 +24,7 @@
 
     <div class="container d-flex justify-content-center text-center">
         <span class="dots d-flex pt-3">
-            <ul class="d-flex px-0 pt-3 pt-sm-3 pt-md-4 pt-lg-4">
+            <ul class="d-flex px-0 pt-3 pt-sm-3 pt-md-4 pt-lg-4"></ul>
                 <li class="list-unstyled mx-2"><a class="active" href="#"></a></li>
                 <li class="list-unstyled mx-2"><a href="#"></a></li>
                 <li class="list-unstyled mx-2"><a href="#"></a></li>
