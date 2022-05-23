@@ -4,9 +4,40 @@
 .header-navscroll{
     background-color: #ffd700;
 }
+.header-nav{
+    margin: 50px;
+    font-weight: 700;
+    color: #000;
+}
+.header-caption{
+    text-align: end;
+    margin-top: 11px;
+}
+.header-caption-1{
+    text-align: start;
+    font-size: 45px;
+}
 
-
-
+.header-heading-2 {
+    font-size: 60px;
+  }
+    
+  .header-heading-2, .header-caption-1 {
+    font-family: 'Fredericka the Great', cursive;
+  }
+  .header-subheading{
+    font-weight: bolder;
+    font-family: 'FontAwesome';
+    font-size: 15px;
+  }
+  
+  .align-items-center{
+    text-align: center;
+  }
+  
+  .header-heading-1 {
+    font-family: 'Cookie', cursive;
+  }
 
 @media only screen and (max-device-width: 360px) {
     /* styles for mobile browsers smaller than 360px; */

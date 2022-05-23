@@ -9,37 +9,36 @@
   background-repeat: no-repeat;
 }
 
-.header-heading-2 {
-  font-size: 50px;
-}
 
-.header-caption-1 {
-  font-size: 35px;
-}
-
-.header-heading-2, .header-caption-1 {
-  font-family: 'Fredericka the Great', cursive;
-}
-
-.header-heading-1 {
-  font-family: 'Cookie', cursive;
-  margin-left: 60px;
-}
 
 .banner-image-left-leaf1 {
   position: absolute;
-  margin-top: 180px;
+  margin-top: 130px;
   margin-left: -25px;
 }
 
 .banner-image-left-leaf1 .img-fluid {
   height: 100px;
 }
-
+.banner-line{
+  margin-top: -30px;
+  width: 260px;
+  height: 47px;
+  border-bottom: 1px solid black;
+  margin-left: 60px;
+  }
 .banner-image-right-pasta {
   position: absolute;
   margin-top: 85px;
-  margin-left: 380px;
+  margin-left: 480px;
+}
+.banner-btn{
+  border-radius: 0px;
+  font-weight: bolder;
+  font-family: 'FontAwesome';
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-top: 5px;
 }
 
 .banner-image-left-pasta .img-fluid {

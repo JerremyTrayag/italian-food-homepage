@@ -1,13 +1,14 @@
 .footer-section {
-    /* background-image: url("/images/bgImage.jpg"); */
-    /* background: linear-gradient(90deg, rgba(2,0,36,0.49653364763874297) 100%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%); */
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.60) 100%, rgba(0 0 0 / 60)100%,rgba(0, 0, 0, .60) 100%), url(/images/bgImage.jpg);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.60) 100%, rgba(0 0 0 / 60)100%,rgba(0, 0, 0, .60) 100%), url(/images/bgimage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
+.footer-logo {
+    height: 60px;
+}
 
-.footer-section .footer-logo {
+.footer-section .footer-info {
     color: gold;
     font-size: 1.5em;
 }
@@ -21,7 +22,7 @@
     border-radius: 50%;
     background-color: white;
     text-align: center;
-    transition: all ease 300ms;
+    transition: all ease-in-out 300ms;
 }
 .footer-section .footer-sm-container ul li:hover {
     background-color:gold;
@@ -29,25 +30,31 @@
 .footer-section .footer-sm-container ul li a {
     color: black;
     font-size: 1.4em;
+    transition: all ease-in-out 300ms;
 }
 
 
 @media only screen and (max-device-width: 360px) {
     /* styles for mobile browsers smaller than 360px; */
+
  }
 
 @media only screen and (max-device-width: 480px) {
     /* styles for mobile browsers smaller than 480px; */
+
  }
  
  @media only screen and (device-width: 768px) {
     /* default tablet and iPad screens */
+
  }
- 
+
  @media only screen and (min-width: 960px) {
      /* styles for browsers larger than 960px; */
+
  }
  
  @media only screen and (min-width: 1200px) {
      /* styles for browsers larger than 1200px; */
+
  }
