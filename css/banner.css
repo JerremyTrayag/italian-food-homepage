@@ -10,20 +10,28 @@
 }
 
 .header-heading-2 {
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .header-caption-1 {
-  font-size: 35px;
+  font-size: 45px;
 }
 
 .header-heading-2, .header-caption-1 {
   font-family: 'Fredericka the Great', cursive;
 }
+.header-subheading{
+  font-weight: bolder;
+  font-family: 'FontAwesome';
+  font-size: 15px;
+}
+
+.align-items-center{
+  text-align: center;
+}
 
 .header-heading-1 {
   font-family: 'Cookie', cursive;
-  margin-left: 60px;
 }
 
 .banner-image-left-leaf1 {
@@ -39,7 +47,7 @@
 .banner-image-right-pasta {
   position: absolute;
   margin-top: 85px;
-  margin-left: 380px;
+  margin-left: 480px;
 }
 
 .banner-image-left-pasta .img-fluid {
