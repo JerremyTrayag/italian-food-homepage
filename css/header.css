@@ -1,5 +1,6 @@
 #header-navbar{
     transition: background-color 0.5s;
+    /* height: 110px; */
 }
 .header-navscroll{
     background-color: #ffd700;
@@ -38,13 +39,20 @@
   .header-heading-1 {
     font-family: 'Cookie', cursive;
   }
+  
 
 @media only screen and (max-device-width: 360px) {
     /* styles for mobile browsers smaller than 360px; */
+    .navbar-brand img{
+      height: 80px;
+    }
  }
 
 @media only screen and (max-device-width: 480px) {
     /* styles for mobile browsers smaller than 480px; */
+    .navbar-brand img{
+      height: 80px;
+    }
  }
  
  @media only screen and (device-width: 768px) {
