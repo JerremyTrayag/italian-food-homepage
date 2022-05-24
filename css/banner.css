@@ -13,12 +13,12 @@
 
 .banner-image-left-leaf1 {
   position: absolute;
-  margin-top: 130px;
-  margin-left: -25px;
+  margin-top: 10em;
+  margin-left: 6em;
 }
 
-.banner-image-left-leaf1 .img-fluid {
-  height: 100px;
+.banner-image-left-leaf1 img {
+  height: 150px;
 }
 .banner-line{
   margin-top: -30px;
@@ -29,8 +29,9 @@
   }
 .banner-image-right-pasta {
   position: absolute;
-  margin-top: 85px;
-  margin-left: 480px;
+  display: flex;
+  justify-content: end;
+  margin-top:8em;
 }
 .banner-btn{
   border-radius: 0px;
@@ -47,8 +48,8 @@
 
 .banner-image-bottom-left-spag {
   position: absolute;
-  margin-top: 530px;
-  margin-left: -210px;
+  bottom: -10em;
+  left: -10em;
 }
 
 .banner-image-bottom-left-spag .img-fluid {
@@ -57,8 +58,10 @@
 
 .banner-image-bottom-center-tomato {
   position: absolute;
-  margin-top: 530px;
-  margin-left: 500px;
+  bottom: 0;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 5em;
 }
 
 .banner-image-bottom-center-tomato .img-fluid {
@@ -67,34 +70,220 @@
 
 .banner-image-bottom-right-leaf2 {
   position: absolute;
-  margin-top: 500px;
-  margin-left: 1060px;
+  bottom: 20px;
+  right: 0px;
+  display: flex;
+  justify-content: end;
+  margin-right: 5em;
+  margin-bottom: 6em;
 }
 
 .banner-image-bottom-right-leaf2 .img-fluid {
   height: 100px;
 }
 
+
+
+
+
+
+
+
 /*
 font-family: 'Fredericka the Great', cursive;
 */
-@media only screen and (max-device-width: 360px) {
-  /* styles for mobile browsers smaller than 360px; */
-}
 
-@media only screen and (max-device-width: 480px) {
-  /* styles for mobile browsers smaller than 480px; */
-}
 
-@media only screen and (device-width: 768px) {
-  /* default tablet and iPad screens */
-}
 
-@media only screen and (min-width: 960px) {
-  /* styles for browsers larger than 960px; */
+
+
+
+@media only screen and (max-device-width: 959px) {
+  /* styles for browsers below than 959px; */
+  .banner-image-left-leaf1 img{
+    position: absolute;
+    top: -2em;
+    left: -6em;
+  }
+  .banner-image-right-pasta img{
+    position: absolute;
+    top: 2em;
+    right: -20em;
+    height: 8em;
+  }
+  .banner-image-bottom-center-tomato img{
+    position: absolute;
+    left: 0em;
+    bottom: 3em;
+    height: 6em;
+  }
+  .banner-image-bottom-left-spag img{
+    position: absolute;
+    bottom: 4em;
+    height: 14em;
+    left: 6em;
+  }
+  .banner-image-bottom-right-leaf2 img{
+    position: absolute;
+    right: -5em;
+    height: 6em;
+    bottom: 2em;
+  }
+  .banner-image-right img{
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   /* styles for browsers larger than 1200px; */
 }
 /*# sourceMappingURL=banner.css.map */
+
+@media only screen and (device-width: 768px) {
+  /* default tablet and iPad screens */
+  .banner-image-left-leaf1 img{
+    position: absolute;
+    top: -2em;
+    left: -6em;
+  }
+  .banner-image-right-pasta img{
+    position: absolute;
+    top: 2em;
+    right: -20em;
+    height: 8em;
+  }
+  .banner-image-bottom-center-tomato img{
+    position: absolute;
+    left: 0em;
+    bottom: 1em;
+    height: 6em;
+  }
+  .banner-image-bottom-left-spag img{
+    position: absolute;
+    bottom: 5em;
+    height: 10em;
+    left: 6em;
+  }
+  .banner-image-bottom-right-leaf2 img{
+    position: absolute;
+    right: -5em;
+    height: 6em;
+    bottom: 0em;
+  }
+  .banner-image-right img{
+    display: none;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+    /* styles for mobile browsers smaller than 767px; */
+    .banner-image-left-leaf1 img{
+      position: absolute;
+      top: -2em;
+      left: -6em;
+    }
+    .banner-image-right-pasta img{
+      position: absolute;
+      top: 2em;
+      right: -15em;
+      height: 6em;
+    }
+    .banner-image-bottom-center-tomato img{
+      position: absolute;
+      left: 0em;
+      bottom: 1em;
+      height: 6em;
+    }
+    .banner-image-bottom-left-spag img{
+      position: absolute;
+      bottom: 5em;
+      height: 10em;
+      left: 6em;
+    }
+    .banner-image-bottom-right-leaf2 img{
+      position: absolute;
+      right: -5em;
+      height: 6em;
+      bottom: 0em;
+    }
+    .banner-image-right img{
+      display: none;
+    }
+}
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; */
+  .banner-image-left-leaf1 img{
+    position: absolute;
+    top: -2em;
+    left: -6em;
+    height: 100px;
+  }
+  .banner-image-right-pasta img{
+    position: absolute;
+    top: 2em;
+    right: -11.5em;
+    height: 5em;
+  }
+  .banner-image-bottom-center-tomato img{
+    position: absolute;
+    left: 0em;
+    bottom: 1em;
+    height: 5em;
+  }
+  .banner-image-bottom-left-spag img{
+    position: absolute;
+    bottom: 5em;
+    height: 9em;
+    left: 6em;
+  }
+  .banner-image-bottom-right-leaf2 img{
+    position: absolute;
+    right: -5em;
+    height: 5em;
+    bottom: 0em;
+  }
+  .banner-image-right img{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-device-width: 360px) {
+  /* styles for mobile browsers smaller than 360px; */
+  .banner-image-left-leaf1 img{
+    position: absolute;
+    top: 0em;
+    left: -6em;
+    height: 100px;
+  }
+  .banner-image-right-pasta img{
+    position: absolute;
+    top: 2em;
+    right: -10em;
+    height: 4.5em;
+  }
+  .banner-image-bottom-center-tomato img{
+    position: absolute;
+    left: 0em;
+    bottom: 1em;
+    height: 4em;
+  }
+  .banner-image-bottom-left-spag img{
+    position: absolute;
+    bottom: 6em;
+    height: 8em;
+    left: 6em;
+  }
+  .banner-image-bottom-right-leaf2 img{
+    position: absolute;
+    right: -5em;
+    height: 4em;
+    bottom: 0em;
+  }
+  .banner-image-right img{
+    display: none;
+  }
+  .banner-line {
+    margin: 20px;
+  }
+}
