@@ -75,18 +75,18 @@
 
 
 
-<div class="container">
+<div class="gallery-container container">
     <div class="row">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-end">
+        <div class=" image-left col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-end">
                 <img class="img-fluid" src ="images/Gallery1.png">
         </div>
-        <div class=" col-12 col-sm-12 col-md-12 col-lg-6">
+        <div class="image-right col-12 col-sm-12 col-md-12 col-lg-6">
             <div class="row">
-                <div class="col-12 d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-start py-3">
-                    <img class="img-fluid" src ="images/Gallery2.png">
+                <div class="col-12 d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-start pb-3">
+                    <img class="img-fluid h-100" src ="images/Gallery2.png">
                 </div>
-                <div class="col-12 d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-start py-3">
-                    <img class="img-fluid" src ="images/Gallery3.png">
+                <div class="col-12 d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-start pt-4">
+                    <img class="img-fluid h-100" src ="images/Gallery3.png">
                 </div>
             </div>
         </div>
