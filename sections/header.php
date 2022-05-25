@@ -1,48 +1,5 @@
 <!-- Navigation --> 
-<<<<<<< HEAD
 <div class="navbar navbar-expand-lg navbar-light fixed-top" id="header-navbar">
-=======
-<!-- <nav id="header-navbar" class="navbar navbar-expand-lg navbar-light fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img src="./images/logo.png" alt="" class="d-inline-block align-text-top"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ms-auto header-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Our Story</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <nav id="header-navbar" class="navbar navbar-expand-lg navbar-light fixed-top">
->>>>>>> 5a19e6f453e004147f3a159e1c139613dbbf1a4f
     <div class="container">
         <div class="row w-100">
             <div class="col-10 col-sm-10 col-md-6 col-lg-6">
