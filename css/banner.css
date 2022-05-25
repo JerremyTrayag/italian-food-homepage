@@ -31,9 +31,7 @@
   bottom: -10em;
   left: -10em;
 }
-/* .banner-plate {
-  position: absolute;
-} */
+
 
 
 /*
@@ -103,6 +101,9 @@ font-family: 'Fredericka the Great', cursive;
       display: none;
     }
     .banner-image-right img{
+      display: none;
+    }
+    .banner-plate img{
       display: none;
     }
 }
