@@ -78,15 +78,15 @@
 <div class="gallery-container container">
     <div class="row d-flex justify-content-center">
         <div class=" image-left col-12 col-sm-12 col-md-12 col-lg-6 d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-end">
-                <img class="img-fluid" src ="images/Gallery1.png">
+                <img class="img-fluid " src ="images/Gallery1.png">
         </div>
         <div class="image-right row col-12 col-sm-12 col-md-12 col-lg-6 gap-3">
             <!-- <div class="row"> -->
-                <div class="col-12 d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-start">
-                    <img class="img-fluid h-100" src ="images/Gallery2.png">
+                <div class="col-12 d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-start p-0">
+                    <img class="img-fluid" src ="images/Gallery2.png">
                 </div>
-                <div class="col-12 d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-star">
-                    <img class="img-fluid h-100" src ="images/Gallery3.png">
+                <div class="col-12 d-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-start p-0">
+                    <img class="img-fluid mb-3 " src ="images/Gallery3.png">
                 </div>
             <!-- </div> -->
         </div>
