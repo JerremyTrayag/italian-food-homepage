@@ -6,7 +6,6 @@
     background-color: #ffd700;
 }
 .header-nav{
-    margin: 50px;
     font-weight: 700;
     color: #000;
 }
@@ -39,6 +38,12 @@
   .header-heading-1 {
     font-family: 'Cookie', cursive;
   }
+  .header-phone-img img {
+    height: 4em;
+}
+.navbar-nav ul li .nav-link {
+  font-size: 2em;
+}
   
 
 @media only screen and (max-device-width: 360px) {

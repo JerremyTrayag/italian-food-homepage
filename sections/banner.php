@@ -1,6 +1,6 @@
 <div class="banner-hero">
     <div class="container h-100">
-        <div class="row h-100 w-100">
+        <div class="row h-100 w-100 m-0">
 
             <div class="h-100 col-12 col-sm-12 col-md-6 col-lg-6 banner-text-left d-flex justify-content-center align-items-center">
                 <div>
