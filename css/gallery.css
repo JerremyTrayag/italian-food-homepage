@@ -46,6 +46,10 @@
      .gallery-container .image-left{
         margin-bottom: 15px;
     }
+    /* .gallery-container img-fluid{
+        max-width: 100%;
+    } */
+}
     
  
  @media only screen and (min-width: 1200px) {
