@@ -15,9 +15,8 @@
     width: 510px;
     height: 180px;
 } */
-.image-right .img-fluid{
-    height: 100%;
-    width: 100%;
+.gallery-container .row{
+    justify-content: center;
 }
 
 
