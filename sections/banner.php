@@ -22,6 +22,9 @@
                     </div>
                 </div>
             </div>
+            <div class="h-100 col-12 col-sm-12 col-md-6 col-lg-6 banner-plate d-flex justify-content-center align-items-center">
+                <img class="img-fluid" src="../images/plate.png" alt="spag">
+            </div>
 
                 <div class="col-6 banner-image-bottom-left-spag">
                     <img class="" src="../images/spag.png" alt="spag">

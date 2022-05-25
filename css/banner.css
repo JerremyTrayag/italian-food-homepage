@@ -3,7 +3,7 @@
 .banner-hero {
   height: 100vh;
   min-height: 500px;
-  background-image: url("../images/bgimg.png");
+  background-image: url("../images/bgimg1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -31,6 +31,7 @@
   bottom: -10em;
   left: -10em;
 }
+
 
 
 /*
@@ -100,6 +101,9 @@ font-family: 'Fredericka the Great', cursive;
       display: none;
     }
     .banner-image-right img{
+      display: none;
+    }
+    .banner-plate img{
       display: none;
     }
 }
